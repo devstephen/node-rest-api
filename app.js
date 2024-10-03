@@ -1,5 +1,6 @@
 import express from 'express'
 import dotenv from 'dotenv'
+import cors from 'cors'
 import createError from 'http-errors'
 import initDB from './initDB.js'
 dotenv.config()
